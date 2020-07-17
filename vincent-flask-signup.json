@@ -1,9 +1,9 @@
 {
-    "family": "flask-signup",
+    "family": "vincent-flask-signup",
     "containerDefinitions": [
         {
             "image": "202437511170.dkr.ecr.eu-west-3.amazonaws.com/jenkins-test-repo:v_%BUILD_NUMBER%",
-            "name": "flask-signup",
+            "name": "vincent-flask-signup",
             "cpu": 10,
             "memory": 256,
             "essential": true,
